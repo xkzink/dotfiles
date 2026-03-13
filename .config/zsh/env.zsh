@@ -5,6 +5,7 @@
 export EDITOR='nvim'
 
 # startship
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
 eval "$(starship init zsh)"
 
 # zoxide like autojump 
