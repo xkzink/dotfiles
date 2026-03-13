@@ -1,0 +1,37 @@
+auto-update = check
+theme = tokyonight
+window-height = 33
+window-width = 103
+#window-padding-x = 8
+#window-padding-y = 8
+
+quit-after-last-window-closed = true
+
+# disabled title-bar and tab function
+#window-decoration = false
+# hidden disabled title-bar but ok tab function
+macos-titlebar-style = tabs
+
+# cursor
+cursor-style = bar
+cursor-style-blink = true
+shell-integration-features = no-cursor
+copy-on-select = clipboard
+mouse-hide-while-typing = false
+
+# keybind
+# move in split nav
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+j=goto_split:top
+keybind = ctrl+k=goto_split:bottom
+keybind = ctrl+l=goto_split:right
+
+# clear cmd line
+keybind = super+backspace=text:\x15
+
+# fullscreen
+keybind = alt+enter=toggle_fullscreen
+
+# quick terminial
+keybind = global:ctrl+backquote=toggle_quick_terminal
+
